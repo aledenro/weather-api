@@ -1,0 +1,20 @@
+.table_style {
+    font-size: 11pt;
+    font-family: Arial;
+    border-collapse: collapse;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+.table_style th{
+background: rgb(61,164,166);
+background: linear-gradient(0deg, rgba(61,164,166,1) 0%, rgba(31,198,190,1) 100%);
+padding: 10px;
+font-size: 12pt;
+color: white;
+border:1px solid silver;
+text-align:center !important;}
+
+.table_style tr:nth-child(even) {
+    background: #E0E0E0;
+}
